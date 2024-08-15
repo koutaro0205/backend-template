@@ -2,6 +2,7 @@
 
 ## ディレクトリ構成（app以下）
 
+```
 app/
 ├── cmd/
 │   └── server/
@@ -27,6 +28,7 @@ app/
 │       └── utils.go
 ├── go.mod
 └── go.sum
+```
 
 - cmd/server: アプリケーションのエントリーポイント。main.goがここに配置されます。
 - internal/gqlgen: gqlgenによって生成されたコードやスキーマファイルを配置します。
